@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&family=Happy
+       +Monkey&family=Inter:wght@300;400;500&family=Montserrat:wght@400;
+       700&family=Orbitron:wght@700&family=Roboto:wght@300;400;900&family=
+       Smythe&family=Source+Sans+3:wght@300;600;700&display=swap"
+       rel="stylesheet"
+     />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Movie Watclist</title>
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="styles.css" />
+
+   
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-text">
+        <h1>Find your movie</h1>
+        <a href="watchlist.html">My Watchlist</a>
+        
+      </div>
+      <div class="search-wrap">
+      <input type="text" id="search-bar" placeholder="Search for movies..." />
+      <button  id="search-btn" for="search-bar">Search</button>
+      </div>
+    </header>
+
+    <section class="main">
+        
+        <div id="movie-container">
+            <!-- searched movies go here  -->
+        </div>
+        
+        <div class="main-background" id="main-background">
+        <img id="background-img" src="images/Icon.png" alt="movie-icon">
+        <h2 id="background-text" class="background-text">Start exploring</h2>
+      </div>
+    </section>
+     <!-- link javascript file -->
+     <script src="app.js" type="module"defer ></script>
+     <script src="watchlist.js" type="module" defer></script>
+  </body>
+</html>

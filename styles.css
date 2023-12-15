@@ -1,0 +1,174 @@
+* *::after *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Inter",sans-serif;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    /* background-color: #fafafa; */
+  
+    max-width: 800px;
+}
+/* header section */
+
+.header{
+    background-image: url(images/andre-tan-THJJRUhNlEc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    /* color: white; */
+    position: relative;
+  
+    
+
+}
+
+.header-text{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding:  3.5em  0;
+}
+
+.search-wrap{
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    top: 165px ;
+    position:absolute;
+    /* margin: 0 auto; */
+    left: 0;
+    right: 0;
+    
+    
+    
+}
+#search-bar{
+    width: 460px;
+    padding: 1em ;
+    /* margin: 0 auto; */
+}
+#search-btn{
+    padding: 1em 2.5em;
+}
+
+
+
+/* body section  */
+.main{
+    margin-bottom: 45px;
+}
+.main-background,#watchlist-background-text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position:absolute;
+  
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#background-text, #watchlist-background-text{
+    color:  #DFDDDD;
+    ;
+}
+
+/* ///watchlist section body 
+ */
+ 
+
+
+ /* ///movie card styling */
+
+ #movie-container{
+     padding-top: 45px;
+}
+
+.movie-container-inner{
+    width: 80%;
+    display: flex;
+    align-items:  flex-start;
+    gap: 30px;
+    margin:  20px auto;
+    padding: 0;
+    line-height: 18px;
+    /* margin-bottom: 50px; */
+ }
+ 
+ .movie-container-inner:not(:last-child) {
+    border-bottom: 1px solid #ddd; /* Adjust the color and style as needed */
+}
+
+
+ .movie-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid purple;
+    padding: 5px;
+    
+    /* width: 60%; */
+ }
+ .movie-details-container p{
+    
+    font-size: 1em;
+    margin-right: 2.75em;
+    margin: 10px 0;
+    font-weight: 400;
+ }
+ 
+
+.movie-details-container h2{
+   font-size: 1.2em;
+   font-weight: bold;
+   margin: 10px 0;
+
+}
+ .poster-container img {
+    width: 120px;
+    
+ }
+
+ .title-rating{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .title-rating p{
+
+ }
+
+ #title-rating-unit{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+ }
+ .time-genre{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+ }
+ .time-genre p{
+    font-size: 0.8em;
+ }
+ .plot{
+    color:#6B7280;
+    ;
+ }
+ #button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: none;
+ }
